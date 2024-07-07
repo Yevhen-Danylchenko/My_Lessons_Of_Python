@@ -1,11 +1,5 @@
-userNum = int(input("Задайте число від 0 до 100\t"))
-num = 0
-while num <= 100 :
-    if num == userNum :
-        break
-    print(num)
-    num += 1
+num = int(input("Задайте число: \t"))
 
-
-
-
+if num > 10 :
+    print("Число більше 10.\n")
+else: print("Число меньше або дорівнює 10.\n")
